@@ -1,29 +1,15 @@
-# newapp
+# vueproject 
+Login page
+- TODO: login page validation
+- TODO: login page testing
 
-## Project setup
-```
-npm install
-```
+Create page
+- TODO: create template
+- TODO: create page validation
+- TODO: create page testing
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Vuex
+- TODO: use vuex to store cookie
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+MOCK API
+- TODO: test with mock api if working
