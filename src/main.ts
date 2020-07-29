@@ -1,15 +1,25 @@
 import Vue from 'vue'
 import App from './App.vue'
 import store from './store'
-import VueRouter from 'vue-router'
+import VueRouter,{ RouteConfig } from 'vue-router'
 import loginBox from './components/Login.vue'
+import CreatePage from './components/CreatePage.vue'
 Vue.config.productionTip = false
 
-const router = new  VueRouter ({
-    routes:  [
-    {path:'/login',component:loginBox},
-]
-});
+const routes: Array<RouteConfig> = [
+    {
+	path:'/login',
+	name:'login',
+	component: loginBox
+    },
+    {
+	path:'/create',
+	name:'create',
+	component: CreatePage
+    }
+];
+const router = new VueRouter({ 
+    routes});
 Vue.use(VueRouter);
 new Vue({
   store,
