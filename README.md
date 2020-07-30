@@ -1,15 +1,23 @@
 # vueproject 
 Login page
-- TODO: login page validation
+- ~~TODO: login page validation~~
 - TODO: login page testing
 
 Create page
-- TODO: create template
-- TODO: create page validation
-- TODO: create page testing
+- ~~TODO: create template~~
+- ~~TODO: create page validation~~
 
-Vuex
-- TODO: use vuex to store cookie
+routing:
+done:
+ - loginpage->success->createpage->success
+pending
+ - 404
+ - 400
 
-MOCK API
-- TODO: test with mock api if working
+TODO:
+- create page testing
+- use vuex to store cookie
+- test with mock api if working
+
+![login](login.png)
+![create](create.png)

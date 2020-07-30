@@ -56,7 +56,6 @@ export default class LoginBox extends Vue {
 
     validateUser (){
 	this.$v.$touch()
-	console.log("validateUser")
 	if (!this.$v.$invalid){
 	this.submit()
 	}
@@ -72,7 +71,6 @@ export default class LoginBox extends Vue {
 	
 	if (field) {
 
-	console.log('reached')
 	return {	    
 	'md-invalid': field.$invalid && field.$dirty
 	}
