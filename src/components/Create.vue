@@ -54,11 +54,11 @@
 </template>
 <script lang="ts">
 import Vue from 'vue'
-import {Validate} from 'vuelidate-property-decorators'
 import {required} from 'vuelidate/lib/validators'
 import {validationMixin} from 'vuelidate'
 import {Component} from 'vue-property-decorator'
 import VueMaterial  from 'vue-material'
+import {Validate} from 'vuelidate-property-decorators'
 Vue.use(VueMaterial)
 
 @Component({

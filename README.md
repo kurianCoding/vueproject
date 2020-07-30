@@ -13,11 +13,12 @@ routing:
     - 404
     - 400
 
-TODO:
 - testing
+    [issue with testing](https://stackoverflow.com/questions/52262084/syntax-error-support-for-the-experimental-syntax-decorators-legacy-isnt-cur)
     - login page testing
     - create page testing
-    - test with mock api if working
+    ~~- test with mock api if working~~
+TODO:
 - use vuex to store cookie
 
 ![login](login.png)
