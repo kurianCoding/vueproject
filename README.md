@@ -7,8 +7,8 @@ Create page
 - ~~TODO: create page validation~~
 
 routing:
-done:
- - loginpage->success->createpage->success
+ - done:
+    - loginpage->success->createpage->success->loginpage
  - pending
     - 404
     - 400
