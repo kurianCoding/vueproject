@@ -9,9 +9,9 @@ Create page
 routing:
 done:
  - loginpage->success->createpage->success
-pending
- - 404
- - 400
+ - pending
+    - 404
+    - 400
 
 TODO:
 - testing
