@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@kurian2020/profiletag": "^2.2.0",
+    "@types/vuelidate": "^0.7.13",
     "@vue/composition-api": "^1.0.0-beta.6",
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
@@ -17,6 +18,7 @@
     "vue-material": "^1.0.0-beta-14",
     "vue-property-decorator": "^8.4.2",
     "vue-router": "^3.3.4",
+    "vuelidate-property-decorators": "^1.0.28",
     "vuex": "^3.4.0"
   },
   "devDependencies": {

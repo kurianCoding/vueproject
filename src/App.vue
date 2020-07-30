@@ -1,18 +1,18 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-  <router-view></router-view>
+    <login-box> </login-box>
   </div>
 </template>
 
 <script lang="ts">
-import { Component, Vue } from 'vue-property-decorator';
-import VueRouter from 'vue-router'
-
+import {Component} from 'vue-property-decorator';
+import LoginBox from './components/Login.vue';
+import Vue from 'vue';
 
 @Component({
   components: {
-    VueRouter,
+    LoginBox
   },
 })
 export default class App extends Vue {}
