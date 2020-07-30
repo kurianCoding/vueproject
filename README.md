@@ -18,7 +18,8 @@ routing:
     - login page testing
     - create page testing
     - ~~ test with mock api if working~~
-TODO:
+
+#TODO
 - use vuex to store cookie
 
 ![login](login.png)
